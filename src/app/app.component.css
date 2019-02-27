@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  size: 400px;
+}
+
+.inner {
+  position: absolute;
+  size: 400px;
+}

@@ -41,7 +41,7 @@ export class MapComponent implements OnInit {
   }
 
   initMap() {
-     this.viewer.scene.globe.show = false;
+     this.viewer.scene.globe.show = true;
      this.viewer.timeline.destroy();
      this.viewer.homeButton.destroy();
      this.viewer.sceneModePicker.destroy();
